@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/qr_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    android:padding="16dp"
+    tools:context="org.altervista.httpvoxartem.voxartem.QRFragment">
+
+    <ImageView
+        android:id="@+id/qr_image"
+        android:layout_width="400dp"
+        android:layout_height="360dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/qr_title"
+        android:background="@drawable/qr_code" />
+
+    <Button
+        android:id="@+id/scan_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:onClick="scan"
+        android:text="@string/qr" />
+
+    <ScrollView
+        android:id="@+id/qr_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_below="@id/qr_title"
+        android:layout_marginTop="24dp">
+
+        <TextView
+            android:id="@+id/qr_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/speak_button"
+            android:text=""
+            android:visibility="invisible" />
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/qr_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="8dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/activity_to_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/background_dark"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/speak_button"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/qr_title"
+        android:background="@drawable/tts"
+        android:visibility="invisible" />
+
+    <VideoView
+        android:id="@+id/video_view"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@id/qr_scroll"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/video_view"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/background_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/media_player"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/play_pause"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/play"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/stop"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Vox Artem</string>
+    <string name="home_fragment">Home</string>
+    <string name="qr_fragment">QR</string>
+    <string name="findus_fragment">Trovaci</string>
+    <string name="login_fragment">Login</string>
+    <string name="benvenuto">Benvenuto nel museo di Durazzo</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="qr">Scan QR code</string>
+    <string name="navigate">Raggiungici</string>
+    <string name="login">Login</string>
+    <string name="login_error">Username o password errati</string>
+    <string name="fondazione">Il museo Archeologico di Durazzo fu fondato nel 1951 per volontà dell’archeologo Vangjel Toci, con lo scopo di raccogliere e studiare i reperti archeologici rinvenuti nel territorio in seguito agli scavi effettuati durante il dopoguerra.</string>
+    <string name="grande_museo">Il museo è in costante crescita, in quanto scavi sistematici nella città di Durazzo riportano spesso alla luce statue, colonne, vasi, monete, gioielli, utensili e altri repeterti di importante valore storico. Attualmente, dopo il suo ultimo restauro nel 2002, il museo di Durazzo è il più grande museo archeologico in Albania. È composto da due aree: una all’aperto, costituita dai giardini e dai portici, dove sono esposti gli oggetti di grandi dimensioni come colonne e statue in marmo o pietra, e una parte interna, dove i reperti archeologici sono divisi in gallerie tematiche.</string>
+    <string name="api_key">AIzaSyCfjt4k7KfHX1YFj9IY_IQa5VT96LO0WOw</string>
+    <string name="media_player">Sottofondo musicale: </string>
+</resources>
