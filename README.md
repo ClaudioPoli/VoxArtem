@@ -1,0 +1,4 @@
+# VoxArtem
+System with three-tier architectures, divided into two components, web and mobile, which allows the management and use of contents linked to a museum structure. The PHP programming language was used to implement the web component through the NetBeans development IDE; for the part relating to the DataBase, on the other hand, the functions of MySQL 5.6.3 have been used. The mobile component was implemented through Android Studio, using Java for Android. In the implementation phase, architectural patterns were used and created such as Model View Controller, Front Controller, Active Record, Lazy Initialization and Singleton.
+Once development was complete, the work was subjected to a verification phase using Kiuwan, a platform that allows you to analyze the quality of a software in terms of efficiency, code optimization and security.
+The entire project was documented using Visual Paradigm.
